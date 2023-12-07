@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Notes.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Notes</h1>
+        <button class="btn">Create Notes</button>
+        <div class="notes-container">
+            <p contenteditable="true" class="input-box">
+               
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        const notesContainer =document.querySelector(".notes-container");
+        const createBtn =document.querySelector(".btn");
+        let notes = document.querySelector(".input-box");
+
+        createBtn.addEventListener("click",()=>{
+            let inputBox = document.createElement("p");
+            inputBox.className = "input-box";
+            inputBox.setAttribute("contenteditable","true");
+            notesContainer.appendChild(inputBox);
+        })
+
+       
+    </script>
+    
+</body>
+</html>

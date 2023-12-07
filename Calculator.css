@@ -1,0 +1,28 @@
+.text-center{
+    text-align: center;
+}
+.bg-red{
+    background: grey;
+}
+.mx-auto{
+    margin:auto;
+}
+.m-w-20{
+    max-width: 20vw;
+}
+.button{
+    width: 55px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    margin: 0;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
